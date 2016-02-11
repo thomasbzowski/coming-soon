@@ -1,0 +1,278 @@
+*{
+	box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Teko:400,300);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+
+body{	
+	font: 16px/20px 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: #c6c4c5;
+	background: #7e7a7d url(../img/background.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+
+.clearfix:before, .clearfix:after{
+	display: table;
+	content: "";
+}
+.clearfix:after{
+	clear: both;
+}
+
+h1, h2, h3, button{
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+h1{
+	font-size: 120px;
+	line-height: 120px;
+	letter-spacing: 18px;
+	margin-bottom: 15px;
+}
+
+h2{
+	font-size: 30px;
+	letter-spacing: 4px;
+	margin-bottom: 25px;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.topBar{
+	margin-bottom: 180px;
+}
+
+.logo{
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+
+.bgcolor{
+	position: relative;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #ea4242;
+    height: 100%;
+	width: 100%;
+	position: fixed;
+	display: block;
+	opacity: 0.9;
+
+}
+.submenu{
+	padding-top:  300px;
+	text-transform: uppercase;
+	position: fixed;
+	display: block;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 200px;
+}
+
+
+.submenu li{
+	margin-top: 40px;
+	letter-spacing: 5px;
+	margin-left: 25px;
+   float: left;
+   font-family: 'Teko', sans-serif;
+   font-size: 45px;
+	display: block;
+ }
+
+.submenu li li{
+	letter-spacing: 2px;
+   margin:0px 25px 3px 0;
+   margin-left: 0px;
+   margin-top: 5px;
+   float: none;
+   font-family: 'Teko', sans-serif;
+   font-size: 18px;
+   color: #000;
+   display: block;
+ }
+
+.submenu li li a{
+	color: #fcd5d5;
+}
+
+ .submenu .toprow{
+ 	margin-top: 25px;
+ }
+
+.submenu footer{
+	clear: both;
+	margin-top: 280px;
+	margin-left: 350px;
+}
+
+.submenu footer li{
+	margin-left: 10px;
+}
+
+
+.submenu footer i{
+ 	font-size: 20px;
+	color: #fff;
+ }
+
+.menu{
+	float: right;
+	width: 70px;
+	height: 70px;
+	padding-top: 28px;
+	background: #352d2f;
+}
+
+.bar{
+	display: block;
+	width: 25px;
+	height: 2px;
+	background: #fff;
+	margin: 0px auto 4px;
+}
+
+main{
+	width: 60%;
+}
+
+.lead{
+	font-size: 26px;
+	line-height: 34px;
+	color: #deddde;
+}
+
+.content{
+	width: 90%;
+}
+
+
+main section{
+	margin-bottom: 60px
+}
+
+main section header{
+	margin-bottom: 30px;
+}
+
+aside{
+	width: 80%;
+}
+
+aside p{
+	font-size: 18px;
+}
+
+form{
+	margin-top: 35px;
+}
+
+input{
+	font-size: 16px; 
+	color: #555555;
+	padding-left: 16px;
+	width: 350px;
+	height: 50px;
+	border: 1px solid #e5e5e5;
+}
+
+button{
+	vertical-align: top;
+	width: 120px;
+	height: 50px;
+	border: none;
+	font-size: 20px;
+	letter-spacing: 2px;
+	background: #f63c3c;
+}
+
+aside h3{
+	margin-top: 36px;
+	font-size: 20px;
+	word-spacing: 0.5em;
+	margin-left: 16px;
+	letter-spacing: 2px;
+}
+
+aside ul{
+	width: 70%;
+}
+
+aside article{
+	margin-top: 10px;
+	margin-left: 50px;
+	font-size: 14px;
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: #fff;
+}
+
+.twitter{
+	display: none;
+}
+
+time{
+	margin-top: 15px;
+	color: #959595;
+	text-transform: uppercase;
+	font-family: 'Teko', sans-serif;
+	font-size: 16px;
+	display: block;
+}
+
+footer {
+	margin-top: 140px;
+	margin-bottom: 30px;
+	margin-right: 150px;
+	color: #959595;
+}
+
+small{
+	float: left;
+}
+
+footer ul li {
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	margin-left: 20px;
+	float: right;
+	display: inline;
+}
+
+footer ul li a {
+	color: #959595;
+}
+
+
+
+
+
+
+
+
+
+
+
+
